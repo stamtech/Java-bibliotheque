@@ -10,6 +10,9 @@ public class Bibliotheque {
     public void ajouterLivre(String titre, String auteur, int nombrePages){
 
         documents.add(new Livre(titre,nombrePages, auteur));
+
+
+        
     }
 
     public void ajouterVieuLivre(String titre, String auteur, int nombrePages, int annee)
