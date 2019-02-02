@@ -6,6 +6,10 @@ public class Bibliotheque {
 
     Bibliotheque(){
         documents= new ArrayList<>();
+
+
+
+        
     }
     public void ajouterLivre(String titre, String auteur, int nombrePages){
 
